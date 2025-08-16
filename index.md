@@ -4,11 +4,10 @@ layout: homepage
 
 <h1 id="about-me"></h1>
 
-<h2 style="margin: 60px 0px 10px;">Short Bio</h2>
+<h2 style="margin: 60px 0px 10px;">About Me</h2>
+I am Xiao Wei ( 魏霄 in Chinese), currently a **master student** at *Duke University*, advised by Professor [Xianyi Cheng](https://xianyicheng.github.io) at [DexLab](https://robotdexteritylab.com). Prior to that, I received my degrees from the dual degree program between *University of Michigan* (Computer Science) and *Shanghai Jiao Tong University* (Electrical and Computer Engineering).
 
-I am Xingli Fang (方星力 in Chinese), a **Ph.D. candidate** at North Carolina State University advised by [Dr. Jung-Eun Kim](https://jungeunkim.wordpress.ncsu.edu/). Prior to that, I got my Master Degree (Computer Engineering) from Syracuse University and Bachelor Degree (Software Engineering) from Northeastern University (China).
-
-My current research lies at **trustworthy machine learning** -- with a special focus on building privacy-safe and efficient ML. My research interests include **privacy**, **efficient AI**, **semi-/self- supervised learning**, and **generative models**.
+My current research lies in **robotic manipulation** -- with a special focus on learning-based control. My research intersts expands **LLM for robot learning**, **data-efficient LfD**, and **control with force feedback**.
 
 <!-- 
 <strong style="color:#e74d3c; font-weight:600">
@@ -18,7 +17,9 @@ My current research lies at **trustworthy machine learning** -- with a special f
 
 {% include_relative _includes/news.md %}
 
+<!--
 {% include_relative _includes/profession.md %}
+-->
 
 {% include_relative _includes/education.md %}
 

@@ -4,6 +4,12 @@
 
 <ul>
   <li>
-    Teaching Assistant, <a href="https://engineeringonline.ncsu.edu/online-courses/fall-2023/csc-591-607-deep-learning-beyond-accuracy/">Deep Learning Beyond Accuracy (CSC 591/791, ECE 591)</a> at <a href="https://www.ncsu.edu/">NC State University</a>, 2024 Fall, 2025 Spring
+    Graduate Teaching Assistant, <a href="https://sites.google.com/view/cps330-algorithmdesign/cps-330-algorithm-design">Introduction to the Design and Analysis of Algorithms (COMPSCI 330)</a> at <a href="https://www.duke.edu/">Duke University</a>, Spring 2025, Fall 2025
+  </li>
+</ul>
+
+<ul>
+  <li>
+    Undergrad Teaching Assistant, Introduction to the Natural Language Processing (EECS 487) at <a href="https://www.umich.edu/">University of Michigan</a>, Fall 2023
   </li>
 </ul>

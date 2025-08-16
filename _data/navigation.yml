@@ -4,8 +4,8 @@ main:
     url: ./#contact 
     right: true
 
-  - title: "Awards"
-    url: ./#award
+  #- title: "Awards"
+  #  url: ./#award
 
   - title: "Services"
     url: ./#services
@@ -13,8 +13,8 @@ main:
   #- title: "Talks"
   #  url: ./#invited-talks
 
-  #- title: "Teaching"
-  #  url: ./#teaching
+  - title: "Teaching"
+    url: ./#teaching
 
   - title: "Publications"
     url: ./#publications

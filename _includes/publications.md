@@ -29,13 +29,14 @@
 </style>
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=GJtATkAAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp>
+<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=YOsAGGMAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp>
 </h2>
 <!--<temp style="font-size:15px;">[</temp><a href="" target="_blank" style="font-size:15px;">DBLP</a><temp style="font-size:15px;">]</temp> -->
 
 <div class="publications">
 <ol class="bibliography">
 
+{% if site.data.publications.conference %}
 <h2 style="margin: 60px 0px -15px;">
 Conference
 </h2><br>
@@ -83,6 +84,9 @@ Conference
 
 {% endfor %}
 
+{% endif %}
+
+{% if site.data.publications.workshop %}
 <h2 style="margin: 60px 0px -15px;">
 Workshop
 </h2><br>
@@ -130,6 +134,9 @@ Workshop
 
 {% endfor %}
 
+{% endif %}
+
+{% if site.data.publications.journal %}
 <h2 style="margin: 60px 0px -15px;">
 Journal
 </h2><br>
@@ -180,6 +187,9 @@ Journal
 
 
 
+{% endif %}
+
+{% if site.data.publications.preprint %}
 <h2 style="margin: 60px 0px -15px;">
 Preprint
 </h2><br>
@@ -226,8 +236,7 @@ Preprint
 <br>
 
 {% endfor %}
-
-
+{% endif %}
 
 </ol>
 </div>

@@ -11,11 +11,11 @@
 {% endfor %}
 
 <!-- old news -->
-<li> <a href="javascript:toggle_vis('newsmore')">Show more</a> </li>
+<!-- <li> <a href="javascript:toggle_vis('newsmore')">Show more</a> </li>
 <div id="newsmore" style="display:none">
 {% for news in site.data.news.old %} 
 <li><strong>[{{ news.date }}]</strong> {{ news.content }}</li>
 {% endfor %}
-</div>
+</div> -->
 
 </ul>

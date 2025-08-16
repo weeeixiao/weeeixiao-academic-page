@@ -18,7 +18,7 @@ Education
     .image-text-container img {
         width: 115px;
         height: 115px;
-        object-fit: cover;
+        object-fit: contain;
         margin-right: 20px;
         border-radius: 5px;
     }
@@ -28,38 +28,38 @@ Education
 </style>
 
 <div class="image-text-container">
-    <img src="{{ site.phd_logo }}" alt="Image">
+    <img src="{{ site.duke_logo }}" alt="Image">
     <div class="text">
-        <h2>North Carolina State University</h2>
+        <h2>Duke University</h2>
         <h3><span style="color: #333333;">
         Department of Computer Science
         </span></h3>
         <p>
-        Ph.D. in Computer Science, <strong> [2023 Spring-Ongoing] </strong>
+        M.S. in Computer Science, <strong> [2024 Fall - Ongoing] </strong>
         </p>
     </div>
 </div>
 <div class="image-text-container">
-    <img src="{{ site.master_logo }}" alt="Image">
+    <img src="{{ site.umich_logo }}" alt="Image">
     <div class="text">
-        <h2>Syracuse University</h2>
+        <h2>University of Michigan, Ann Arbor</h2>
         <h3><span style="color: #333333;">
         Department of Electrical Eng. and Computer Sci.
         </span></h3>
         <p>
-        M.S. in Computer Engineering, <strong> [2021 Fall - 2022 Winter] </strong>
+        B.S.E. in Computer Science and Engineering, <strong> [2022 Fall - 2024 Spring] </strong>
         </p>
     </div>
 </div>
 <div class="image-text-container">
-    <img src="{{ site.bachelor_logo }}" alt="Image">
+    <img src="{{ site.sjtu_logo }}" alt="Image">
     <div class="text">
-        <h2>Northeastern University</h2>
+        <h2>Shanghai Jiao Tong University</h2>
         <h3><span style="color: #333333;">
-        Software College
+        UM-SJTU Joint Institute
         </span></h3>
         <p>
-        B.Eng. in Software Engineering,  <strong> [2017 Fall - 2021 Summer] </strong>
+        B.Eng. in Electrical and Computer Engineering,  <strong> [2020 Fall - 2024 Summer] </strong>
         </p>
     </div>
 </div>

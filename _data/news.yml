@@ -2,38 +2,36 @@ current:
   #- date: "Aug 2025"
   #  content: "Serve as reviewer in AAAI26"
 
-  - date: "Jun 2025"
-    content: "I start a research intern for AT&T Labs in this summer"
-
   - date: "May 2025"
-    content: "I pass the written preliminary exam and become a Ph.D. candidate, a lot of thanks to my advisor and department"
+    content: "I start to do research with Prof. Xianyi Cheng at DexLab"
+
+  - date: "Apr 2025"
+    content: "Our work LAPP is published on ArXiv"
 
   - date: "Jan 2025"
-    content: "Serve as reviewer in ICML25"
+    content: "Serve as reviewer for TIE"
 
-  - date: "Jan 2025"
-    content: "Serve as reviewer in IEEE VTC25"
-
-  - date: "Oct 2024"
-    content: "I get awarded AIES'24 Student Travel Award"
+  - date: "Aug 2024"
+    content: "Joined MSCS program at Duke University"
 
 
 
 
 
 
-old:
-  - date: "Jul 2024"
-    content: "One first-authored paper is accepted by AIES 2024."
-  - date: "Jul 2024"
-    content: "I get awarded a Academic Travel Grants, thanks for my department."
-  - date: "May 2024"
-    content: "I get awarded a scholarship from UAI 2024"
-  - date: "Apr 2024"
-    content: "One first-authored paper is accepted by UAI 2024"
-  - date: "Nov 2023"
-    content: "I get awarded a Academic Travel Grants, thanks for my department."
-  - date: "Apr 2023"
-    content: "I get awarded a Summer Graduate Award (SGA), thanks for my department."
-  - date: "Jan 2023"
-    content: "I join in NCSU as a Ph.D. student."
+
+# old:
+#   - date: "Jul 2024"
+#     content: "One first-authored paper is accepted by AIES 2024."
+#   - date: "Jul 2024"
+#     content: "I get awarded a Academic Travel Grants, thanks for my department."
+#   - date: "May 2024"
+#     content: "I get awarded a scholarship from UAI 2024"
+#   - date: "Apr 2024"
+#     content: "One first-authored paper is accepted by UAI 2024"
+#   - date: "Nov 2023"
+#     content: "I get awarded a Academic Travel Grants, thanks for my department."
+#   - date: "Apr 2023"
+#     content: "I get awarded a Summer Graduate Award (SGA), thanks for my department."
+#   - date: "Jan 2023"
+#     content: "I join in NCSU as a Ph.D. student."
