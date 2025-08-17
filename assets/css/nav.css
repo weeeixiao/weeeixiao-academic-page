@@ -5,7 +5,13 @@
 	position:fixed;
 	z-index:999;
     width:100%;
+    transition: background-color 0.2s ease;
   }
+
+/* Dark mode styles for the navigation */
+[data-theme="dark"] .topnav {
+    background-color: #003366;
+}
 
 
   .topnav #myLinks {

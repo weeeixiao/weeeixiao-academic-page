@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif; color: #595959; font-weight: 400; margin: 0; }
+body { 
+  background-color: #fff; 
+  padding: 0px; 
+  font: 16.0px/1.5 Crimson Pro, serif; 
+  color: #595959; 
+  font-weight: 400; 
+  margin: 0; 
+  transition: background-color 0.2s ease;
+}
 
 .pub-row { display: flex; align-items: center; }
 
@@ -47,6 +55,116 @@ darkonly { visibility: hidden; }
 education { font-weight: 500; font-size: 115%; }
 
 papertitle { font-weight: 600; font-size: 100%; }
+
+/* Dark mode styles */
+[data-theme="dark"] body { 
+  background-color: #20212b !important; 
+  color: #e0e0e0 !important; 
+}
+
+[data-theme="dark"] autocolor { 
+  color: #dadbdf; 
+}
+
+[data-theme="dark"] lightonly { 
+  visibility: hidden; 
+}
+
+[data-theme="dark"] darkonly { 
+  visibility: visible; 
+}
+
+[data-theme="dark"] papertitle { 
+  color: #eeeff0; 
+}
+
+[data-theme="dark"] h1, 
+[data-theme="dark"] h2,
+[data-theme="dark"] h3, 
+[data-theme="dark"] h4, 
+[data-theme="dark"] h5, 
+[data-theme="dark"] h6 { 
+  color: #3eb7f0; 
+}
+
+[data-theme="dark"] a { 
+  color: #3eb7f0; 
+}
+
+[data-theme="dark"] a:hover { 
+  color: #69c5f5; 
+}
+
+[data-theme="dark"] th, 
+[data-theme="dark"] dt { 
+  color: #3eb7f0; 
+}
+
+[data-theme="dark"] strong { 
+  color: #eeeff0; 
+}
+
+[data-theme="dark"] .social-icons a { 
+  color: #3eb7f0 !important; 
+}
+
+[data-theme="dark"] .social-icons a:hover { 
+  background-color: #20212b; 
+}
+
+[data-theme="dark"] pre { 
+  background: #1a1b24; 
+  border-color: #333; 
+}
+
+[data-theme="dark"] code { 
+  color: #f0f0f0; 
+}
+
+[data-theme="dark"] p,
+[data-theme="dark"] ul,
+[data-theme="dark"] ol,
+[data-theme="dark"] dl {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] small {
+  color: #bbb;
+}
+
+/* Ensure all text elements are properly styled in dark mode */
+[data-theme="dark"] div,
+[data-theme="dark"] span,
+[data-theme="dark"] section {
+  color: #e0e0e0;
+}
+
+/* Fix for blockquote in dark mode */
+[data-theme="dark"] blockquote {
+  border-left-color: #444;
+  color: #bbb;
+}
+
+/* Fix for table in dark mode */
+[data-theme="dark"] th,
+[data-theme="dark"] td {
+  border-bottom-color: #444;
+}
+
+/* Fix for hardcoded color styles in education section */
+[data-theme="dark"] h3 span[style*="color: #333333"] {
+  color: #e0e0e0 !important;
+}
+
+/* Add transitions for smooth theme switching */
+html {
+  transition: color 0.2s ease;
+}
+
+/* Apply transitions only to critical elements */
+h1, h2, h3, h4, h5, h6, a, p {
+  transition: color 0.2s ease;
+}
 
 .image { border-radius: 0.35em; border: 0; display: inline-block; position: relative; }
 
