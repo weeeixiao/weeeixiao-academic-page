@@ -21,7 +21,7 @@ enable_last_update: false
 # Links
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=YOsAGGMAAAAJ&hl=en
-# cv_link:
+cv_link: ./assets/CV_Xiao_Wei_Aug17.pdf
 github_link: https://github.com/weeeixiao
 linkedin: https://www.linkedin.com/in/xiao-wei-36a10b325/
 # twitter:

@@ -13,3 +13,9 @@
     Undergrad Teaching Assistant, Introduction to the Natural Language Processing (EECS 487) at <a href="https://www.umich.edu/">University of Michigan</a>, Fall 2023
   </li>
 </ul>
+
+<ul>
+  <li>
+    Grader, Programming Language (EECS 490) at <a href="https://www.umich.edu/">University of Michigan</a>, Fall 2023, Winter 2023
+  </li>
+</ul>

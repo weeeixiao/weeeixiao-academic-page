@@ -7,7 +7,11 @@
 </li>
 
 <li>
-<strong>[2023, 2024]</strong> Dean's List, Department of EECS, UMich
+<strong>[2023, 2024]</strong> Dean's Honor List, Department of EECS, UMich
+</li>
+
+<li>
+<strong>[2023, 2024]</strong> University Honors, UMich
 </li>
 
 <li>

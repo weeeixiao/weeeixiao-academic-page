@@ -4,13 +4,10 @@
   const savedTheme = localStorage.getItem('theme');
   const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   
-  // Set initial theme
+  // Set initial theme - always default to light (sun mode)
   if (savedTheme) {
     document.documentElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
-  } else if (systemPrefersDark) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    updateThemeIcon('dark');
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
     updateThemeIcon('light');
@@ -41,13 +38,13 @@
     }
   }
   
-  // Listen for system preference changes
+  // Listen for system preference changes - but always keep light mode
   if (window.matchMedia) {
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
       if (!localStorage.getItem('theme')) {
-        const newTheme = e.matches ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        updateThemeIcon(newTheme);
+        // Always use light theme (sun mode) regardless of system preference
+        document.documentElement.setAttribute('data-theme', 'light');
+        updateThemeIcon('light');
       }
     });
   }
