@@ -63,13 +63,20 @@
 #     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:iObnrS_Z6C8J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmZch4:AFWwaeYAAAAAZhWfah4HrV3U0DjvUTF3tzdIWuc&scisig=AFWwaeYAAAAAZhWfatA0ue74SDm6fDLgI4b8LkE&scisf=4&ct=citation&cd=-1&hl=en
 #     image: https://ars.els-cdn.com/content/image/1-s2.0-S0926580521000984-gr6.jpg
 #     # notes:
-
-
-preprint:
+journal:
   - title: "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning"
     authors: Pingcheng Jian, <strong>Xiao Wei</strong>, Yanbaihui Liu, Samuel A. Moore, Michael M. Zavlanos<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Boyuan Chen<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: ArXiv
-    conference: "ArXiv, 2025."
+    conference_short: TMLR
+    conference: Transactions on Machine Learning Research, 2025.
     pdf: https://arxiv.org/pdf/2504.15472
     image: ./assets/img/lapp_teaser.png
     website: http://www.generalroboticslab.com/LAPP
+
+# preprint:
+#   - title: "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning"
+#     authors: Pingcheng Jian, <strong>Xiao Wei</strong>, Yanbaihui Liu, Samuel A. Moore, Michael M. Zavlanos<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Boyuan Chen<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+#     conference_short: ArXiv
+#     conference: "ArXiv, 2025."
+#     pdf: https://arxiv.org/pdf/2504.15472
+#     image: ./assets/img/lapp_teaser.png
+#     website: http://www.generalroboticslab.com/LAPP
